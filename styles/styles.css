@@ -506,26 +506,19 @@ styling individual sponsor image
 ---------------------------------*/
 .dark-image,
 .grey-image {
-    mix-blend-mode: luminosity;
+    /* mix-blend-mode: luminosity; */
+    filter: grayscale();
     margin-right: 155px;
 }
 
 /*------------------
 making images dark  
 --------------------*/
-.grey-image {
-    /* fill: #727272; */
-    background-color: grey;
+
+/* .grey-image img {
     mix-blend-mode: luminosity;
 
-
-    /* mix-blend-mode: darken; */
-}
-
-.grey-image img {
-    mix-blend-mode: luminosity;
-
-}
+} */
 
 
 /*---------------------------- 
