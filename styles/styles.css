@@ -352,13 +352,13 @@ achievements-so-far
     padding: 40px;
     width: 241.83px;
     height: 241.83px;
-    transition: transform 1s;
+    transition: transform ease-in-out 0.2s;
     /* justify-content: space-between; */
 }
 
 .achievements-so-far:hover {
     background-color: beige;
-    transform: scale(1.5);
+    transform: scale(1.05);
 }
 
 /*-------------------- 
